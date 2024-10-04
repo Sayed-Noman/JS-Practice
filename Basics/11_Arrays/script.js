@@ -140,6 +140,3 @@ for (let i = 0; i < cube.length; i++) {
 }
 
 
-
-
-
