@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arrays</title>
     <!-- <script src="script.js"></script> -->
-    <script src="forEach_method_script.js"></script>
+    <!-- <script src="forEach_method_script.js"></script> -->
+    <script src="some_every_method_script.js"></script>
 </head>
+
 <body style="font-family: cursive;">
     <h1>Arrays</h1>
-    <p>In JavaScript, arrays are a fundamental part of the language, used to store multiple values in a single variable.</p>
+    <p>In JavaScript, arrays are a fundamental part of the language, used to store multiple values in a single variable.
+    </p>
     <h1>Basic Array Methods</h1>
     <ol>
         <li>pop()</li>
@@ -27,6 +31,36 @@
     </ol>
     <h1>Multidimensional Arrays</h1>
     <p>Multidimensional arrays are also called as arrays inside array.</p>
-    <h1>forEach() to Looping Array Elments</h1>
-</body> 
+    
+    <h1>Higher Order Array Method</h1>
+    <h3>forEach() :</h3>
+    <ul>
+        <li>Purpose:
+            Iterates over each element in an array and executes a provided callback function for each element.
+            It’s primarily used for performing side effects, such as modifying elements or logging values.</li>
+        <li>mmutability: forEach() does not create a new array and does not return anything. It modifies the original
+            array if the callback function alters the elements.</li>
+        <li>Common Use Cases: Logging, Updating Values</li>
+    </ul>
+
+    <h3>Some() :</h3>
+    <ul>
+        <li>Purpose: Checks if at least one element in the array satisfies a given condition. Returns true if the
+            callback function returns a truthy value for any array element; otherwise, returns false.</li>
+        <li>Immutability: some() does not modify the original array. It simply evaluates the elements based on the
+            provided function.</li>
+        <li>Common Use Cases: Validation, Searching, Filtering</li>
+    </ul>
+
+    <h3>every() :</h3>
+    <ul>
+        <li>Checks if all elements in the array satisfy a given condition.
+            Returns true if the callback function returns a truthy value for every array element; otherwise, returns
+            false</li>
+        <li>Immutability: every() does not modify the original array. It simply evaluates all the elements based on the
+            provided function.</li>
+        <li>Common Use Cases: Validation, Compliance Checks, Data Integrity</li>
+    </ul>
+</body>
+
 </html>
