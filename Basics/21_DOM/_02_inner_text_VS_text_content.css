@@ -1,0 +1,36 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the to-do list */
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+/* Style for each to-do item */
+.todo-item {
+    background-color: #f3f3f3;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+/* Style for completed tasks */
+.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+
+/* Hidden element using display: none */
+.hidden {
+    display: none;
+}
+
+/* Invisible element using visibility: hidden */
+#invisibleItem {
+    visibility: hidden;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Attributes Example</title>
+    <link rel="stylesheet" href="_03_get_set_attribute.css">
+</head>
+<body>
+    <h1 title="Header Title" id="headerTitle" class="header-class">Manipulating Custom Attributes in HTML</h1>
+
+    <!-- Image Element with predefined attributes -->
+    <img id="mainImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY3NHZS1nmw9ebIxnKdcjk9xCi3fQ-F2Rydw&s" alt="Placeholder Image" width="300">
+
+    <!-- Link with predefined href and a custom attribute -->
+    <a id="myLink" href="https://www.example.com" target="_blank" title="Click to visit Example" custom-role="admin">Visit Example</a>
+
+    <!-- Div with custom data-attributes and a custom non-standard attribute -->
+    <div id="userInfo" data-user-id="12345" data-product-name="Gadget X" custom-role="user">
+        <p>User Info: <span id="userDetails"></span></p>
+    </div>
+
+    <!-- Button with a custom attribute -->
+    <button id="changeButton" title="Click to change attributes" custom-data="button1">Change Attributes</button>
+
+    <div id="info">
+        <p>Current Image: <span id="currentImageSrc"></span></p>
+        <p>Current Link: <span id="currentLinkHref"></span></p>
+        <p>Current User Info: <span id="currentUserId"></span></p>
+        <p>Current Custom Role: <span id="currentCustomRole"></span></p>
+    </div>
+
+    <script src="_03_get_set_attribute.js" defer></script>
+</body>
+</html>
