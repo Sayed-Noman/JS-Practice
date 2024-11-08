@@ -1,0 +1,34 @@
+/* Default box styling */
+.box {
+    width: 300px;
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 100px;
+    margin: 20px auto;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+/* Link styles */
+a {
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}
+
+a:hover {
+    color: red;
+}
+
+/* Class to apply to links */
+.linkStyle {
+    color: green;
+    font-weight: bold;
+}
+
+/* Active class for a link */
+.active {
+    background-color: yellow;
+    font-style: italic;
+}
